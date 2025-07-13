@@ -1,0 +1,57 @@
+(define (problem mapn) (:domain wumpus)
+(:objects 
+    cell0_0 cell0_1 cell0_2 cell0_3 cell0_4 cell0_5 cell0_6 cell0_7 cell0_8 cell0_9 cell0_10 cell0_11 - location
+    cell1_0 cell1_1 cell1_2 cell1_3 cell1_4 cell1_5 cell1_6 cell1_7 cell1_8 cell1_9 cell1_10 cell1_11 - location
+    cell2_0 cell2_1 cell2_2 cell2_3 cell2_4 cell2_5 cell2_6 cell2_7 cell2_8 cell2_9 cell2_10 cell2_11 - location
+    cell3_0 cell3_1 cell3_2 cell3_3 cell3_4 cell3_5 cell3_6 cell3_7 cell3_8 cell3_9 cell3_10 cell3_11 - location
+    cell4_0 cell4_1 cell4_2 cell4_3 cell4_4 cell4_5 cell4_6 cell4_7 cell4_8 cell4_9 cell4_10 cell4_11 - location
+    cell5_0 cell5_1 cell5_2 cell5_3 cell5_4 cell5_5 cell5_6 cell5_7 cell5_8 cell5_9 cell5_10 cell5_11 - location
+    cell6_0 cell6_1 cell6_2 cell6_3 cell6_4 cell6_5 cell6_6 cell6_7 cell6_8 cell6_9 cell6_10 cell6_11 - location
+    cell7_0 cell7_1 cell7_2 cell7_3 cell7_4 cell7_5 cell7_6 cell7_7 cell7_8 cell7_9 cell7_10 cell7_11 - location
+    s - agent
+    c - crate
+    w - wampus
+    a - arrow
+    f - fireworks
+    h - halfcrate
+    p - pit
+)
+
+(:init
+
+
+(not (finish))
+
+(target cell0_0) (target cell0_1) (target cell0_2) (target cell0_3) (target cell0_4) (target cell0_5) (target cell0_6) (target cell0_7) (target cell0_8) (target cell0_9) (target cell0_10) (target cell0_11)
+(target cell1_0) (target cell1_11) (target cell2_0) (target cell2_11) (target cell3_0) (target cell3_11) (target cell4_0) (target cell4_11) (target cell5_0) (target cell5_11) (target cell6_0) (target cell6_11)
+(target cell7_0) (target cell7_1) (target cell7_2) (target cell7_3) (target cell7_4) (target cell7_5) (target cell7_6) (target cell7_7) (target cell7_8) (target cell7_9) (target cell7_10) (target cell7_11)
+
+  (adjacente cell0_0 cell0_1) (adjacentw cell0_1 cell0_0) (adjacente cell0_1 cell0_2) (adjacentw cell0_2 cell0_1) (adjacente cell0_2 cell0_3) (adjacentw cell0_3 cell0_2) (adjacente cell0_3 cell0_4) (adjacentw cell0_4 cell0_3) (adjacente cell0_4 cell0_5) (adjacentw cell0_5 cell0_4) (adjacente cell0_5 cell0_6) (adjacentw cell0_6 cell0_5) (adjacente cell0_6 cell0_7) (adjacentw cell0_7 cell0_6) (adjacente cell0_7 cell0_8) (adjacentw cell0_8 cell0_7) (adjacente cell0_8 cell0_9) (adjacentw cell0_9 cell0_8) (adjacente cell0_9 cell0_10) (adjacentw cell0_10 cell0_9) (adjacente cell0_10 cell0_11) (adjacentw cell0_11 cell0_10)
+  (adjacente cell1_0 cell1_1) (adjacentw cell1_1 cell1_0) (adjacente cell1_1 cell1_2) (adjacentw cell1_2 cell1_1) (adjacente cell1_2 cell1_3) (adjacentw cell1_3 cell1_2) (adjacente cell1_3 cell1_4) (adjacentw cell1_4 cell1_3) (adjacente cell1_4 cell1_5) (adjacentw cell1_5 cell1_4) (adjacente cell1_5 cell1_6) (adjacentw cell1_6 cell1_5) (adjacente cell1_6 cell1_7) (adjacentw cell1_7 cell1_6) (adjacente cell1_7 cell1_8) (adjacentw cell1_8 cell1_7) (adjacente cell1_8 cell1_9) (adjacentw cell1_9 cell1_8) (adjacente cell1_9 cell1_10) (adjacentw cell1_10 cell1_9) (adjacente cell1_10 cell1_11) (adjacentw cell1_11 cell1_10)
+  (adjacente cell2_0 cell2_1) (adjacentw cell2_1 cell2_0) (adjacente cell2_1 cell2_2) (adjacentw cell2_2 cell2_1) (adjacente cell2_2 cell2_3) (adjacentw cell2_3 cell2_2) (adjacente cell2_3 cell2_4) (adjacentw cell2_4 cell2_3) (adjacente cell2_4 cell2_5) (adjacentw cell2_5 cell2_4) (adjacente cell2_5 cell2_6) (adjacentw cell2_6 cell2_5) (adjacente cell2_6 cell2_7) (adjacentw cell2_7 cell2_6) (adjacente cell2_7 cell2_8) (adjacentw cell2_8 cell2_7) (adjacente cell2_8 cell2_9) (adjacentw cell2_9 cell2_8) (adjacente cell2_9 cell2_10) (adjacentw cell2_10 cell2_9) (adjacente cell2_10 cell2_11) (adjacentw cell2_11 cell2_10)
+  (adjacente cell3_0 cell3_1) (adjacentw cell3_1 cell3_0) (adjacente cell3_1 cell3_2) (adjacentw cell3_2 cell3_1) (adjacente cell3_2 cell3_3) (adjacentw cell3_3 cell3_2) (adjacente cell3_3 cell3_4) (adjacentw cell3_4 cell3_3) (adjacente cell3_4 cell3_5) (adjacentw cell3_5 cell3_4) (adjacente cell3_5 cell3_6) (adjacentw cell3_6 cell3_5) (adjacente cell3_6 cell3_7) (adjacentw cell3_7 cell3_6) (adjacente cell3_7 cell3_8) (adjacentw cell3_8 cell3_7) (adjacente cell3_8 cell3_9) (adjacentw cell3_9 cell3_8) (adjacente cell3_9 cell3_10) (adjacentw cell3_10 cell3_9) (adjacente cell3_10 cell3_11) (adjacentw cell3_11 cell3_10)
+  (adjacente cell4_0 cell4_1) (adjacentw cell4_1 cell4_0) (adjacente cell4_1 cell4_2) (adjacentw cell4_2 cell4_1) (adjacente cell4_2 cell4_3) (adjacentw cell4_3 cell4_2) (adjacente cell4_3 cell4_4) (adjacentw cell4_4 cell4_3) (adjacente cell4_4 cell4_5) (adjacentw cell4_5 cell4_4) (adjacente cell4_5 cell4_6) (adjacentw cell4_6 cell4_5) (adjacente cell4_6 cell4_7) (adjacentw cell4_7 cell4_6) (adjacente cell4_7 cell4_8) (adjacentw cell4_8 cell4_7) (adjacente cell4_8 cell4_9) (adjacentw cell4_9 cell4_8) (adjacente cell4_9 cell4_10) (adjacentw cell4_10 cell4_9) (adjacente cell4_10 cell4_11) (adjacentw cell4_11 cell4_10)
+  (adjacente cell5_0 cell5_1) (adjacentw cell5_1 cell5_0) (adjacente cell5_1 cell5_2) (adjacentw cell5_2 cell5_1) (adjacente cell5_2 cell5_3) (adjacentw cell5_3 cell5_2) (adjacente cell5_3 cell5_4) (adjacentw cell5_4 cell5_3) (adjacente cell5_4 cell5_5) (adjacentw cell5_5 cell5_4) (adjacente cell5_5 cell5_6) (adjacentw cell5_6 cell5_5) (adjacente cell5_6 cell5_7) (adjacentw cell5_7 cell5_6) (adjacente cell5_7 cell5_8) (adjacentw cell5_8 cell5_7) (adjacente cell5_8 cell5_9) (adjacentw cell5_9 cell5_8) (adjacente cell5_9 cell5_10) (adjacentw cell5_10 cell5_9) (adjacente cell5_10 cell5_11) (adjacentw cell5_11 cell5_10)
+  (adjacente cell6_0 cell6_1) (adjacentw cell6_1 cell6_0) (adjacente cell6_1 cell6_2) (adjacentw cell6_2 cell6_1) (adjacente cell6_2 cell6_3) (adjacentw cell6_3 cell6_2) (adjacente cell6_3 cell6_4) (adjacentw cell6_4 cell6_3) (adjacente cell6_4 cell6_5) (adjacentw cell6_5 cell6_4) (adjacente cell6_5 cell6_6) (adjacentw cell6_6 cell6_5) (adjacente cell6_6 cell6_7) (adjacentw cell6_7 cell6_6) (adjacente cell6_7 cell6_8) (adjacentw cell6_8 cell6_7) (adjacente cell6_8 cell6_9) (adjacentw cell6_9 cell6_8) (adjacente cell6_9 cell6_10) (adjacentw cell6_10 cell6_9) (adjacente cell6_10 cell6_11) (adjacentw cell6_11 cell6_10)
+  (adjacente cell7_0 cell7_1) (adjacentw cell7_1 cell7_0) (adjacente cell7_1 cell7_2) (adjacentw cell7_2 cell7_1) (adjacente cell7_2 cell7_3) (adjacentw cell7_3 cell7_2) (adjacente cell7_3 cell7_4) (adjacentw cell7_4 cell7_3) (adjacente cell7_4 cell7_5) (adjacentw cell7_5 cell7_4) (adjacente cell7_5 cell7_6) (adjacentw cell7_6 cell7_5) (adjacente cell7_6 cell7_7) (adjacentw cell7_7 cell7_6) (adjacente cell7_7 cell7_8) (adjacentw cell7_8 cell7_7) (adjacente cell7_8 cell7_9) (adjacentw cell7_9 cell7_8) (adjacente cell7_9 cell7_10) (adjacentw cell7_10 cell7_9) (adjacente cell7_10 cell7_11) (adjacentw cell7_11 cell7_10)
+
+  (adjacents cell0_0 cell1_0) (adjacentn cell1_0 cell0_0) (adjacents cell1_0 cell2_0) (adjacentn cell2_0 cell1_0) (adjacents cell2_0 cell3_0) (adjacentn cell3_0 cell2_0) (adjacents cell3_0 cell4_0) (adjacentn cell4_0 cell3_0) (adjacents cell4_0 cell5_0) (adjacentn cell5_0 cell4_0) (adjacents cell5_0 cell6_0) (adjacentn cell6_0 cell5_0) (adjacents cell6_0 cell7_0) (adjacentn cell7_0 cell6_0)
+  (adjacents cell0_1 cell1_1) (adjacentn cell1_1 cell0_1) (adjacents cell1_1 cell2_1) (adjacentn cell2_1 cell1_1) (adjacents cell2_1 cell3_1) (adjacentn cell3_1 cell2_1) (adjacents cell3_1 cell4_1) (adjacentn cell4_1 cell3_1) (adjacents cell4_1 cell5_1) (adjacentn cell5_1 cell4_1) (adjacents cell5_1 cell6_1) (adjacentn cell6_1 cell5_1) (adjacents cell6_1 cell7_1) (adjacentn cell7_1 cell6_1)
+  (adjacents cell0_2 cell1_2) (adjacentn cell1_2 cell0_2) (adjacents cell1_2 cell2_2) (adjacentn cell2_2 cell1_2) (adjacents cell2_2 cell3_2) (adjacentn cell3_2 cell2_2) (adjacents cell3_2 cell4_2) (adjacentn cell4_2 cell3_2) (adjacents cell4_2 cell5_2) (adjacentn cell5_2 cell4_2) (adjacents cell5_2 cell6_2) (adjacentn cell6_2 cell5_2) (adjacents cell6_2 cell7_2) (adjacentn cell7_2 cell6_2)
+  (adjacents cell0_3 cell1_3) (adjacentn cell1_3 cell0_3) (adjacents cell1_3 cell2_3) (adjacentn cell2_3 cell1_3) (adjacents cell2_3 cell3_3) (adjacentn cell3_3 cell2_3) (adjacents cell3_3 cell4_3) (adjacentn cell4_3 cell3_3) (adjacents cell4_3 cell5_3) (adjacentn cell5_3 cell4_3) (adjacents cell5_3 cell6_3) (adjacentn cell6_3 cell5_3) (adjacents cell6_3 cell7_3) (adjacentn cell7_3 cell6_3)
+  (adjacents cell0_4 cell1_4) (adjacentn cell1_4 cell0_4) (adjacents cell1_4 cell2_4) (adjacentn cell2_4 cell1_4) (adjacents cell2_4 cell3_4) (adjacentn cell3_4 cell2_4) (adjacents cell3_4 cell4_4) (adjacentn cell4_4 cell3_4) (adjacents cell4_4 cell5_4) (adjacentn cell5_4 cell4_4) (adjacents cell5_4 cell6_4) (adjacentn cell6_4 cell5_4) (adjacents cell6_4 cell7_4) (adjacentn cell7_4 cell6_4)
+  (adjacents cell0_5 cell1_5) (adjacentn cell1_5 cell0_5) (adjacents cell1_5 cell2_5) (adjacentn cell2_5 cell1_5) (adjacents cell2_5 cell3_5) (adjacentn cell3_5 cell2_5) (adjacents cell3_5 cell4_5) (adjacentn cell4_5 cell3_5) (adjacents cell4_5 cell5_5) (adjacentn cell5_5 cell4_5) (adjacents cell5_5 cell6_5) (adjacentn cell6_5 cell5_5) (adjacents cell6_5 cell7_5) (adjacentn cell7_5 cell6_5)
+  (adjacents cell0_6 cell1_6) (adjacentn cell1_6 cell0_6) (adjacents cell1_6 cell2_6) (adjacentn cell2_6 cell1_6) (adjacents cell2_6 cell3_6) (adjacentn cell3_6 cell2_6) (adjacents cell3_6 cell4_6) (adjacentn cell4_6 cell3_6) (adjacents cell4_6 cell5_6) (adjacentn cell5_6 cell4_6) (adjacents cell5_6 cell6_6) (adjacentn cell6_6 cell5_6) (adjacents cell6_6 cell7_6) (adjacentn cell7_6 cell6_6)
+  (adjacents cell0_7 cell1_7) (adjacentn cell1_7 cell0_7) (adjacents cell1_7 cell2_7) (adjacentn cell2_7 cell1_7) (adjacents cell2_7 cell3_7) (adjacentn cell3_7 cell2_7) (adjacents cell3_7 cell4_7) (adjacentn cell4_7 cell3_7) (adjacents cell4_7 cell5_7) (adjacentn cell5_7 cell4_7) (adjacents cell5_7 cell6_7) (adjacentn cell6_7 cell5_7) (adjacents cell6_7 cell7_7) (adjacentn cell7_7 cell6_7)
+  (adjacents cell0_8 cell1_8) (adjacentn cell1_8 cell0_8) (adjacents cell1_8 cell2_8) (adjacentn cell2_8 cell1_8) (adjacents cell2_8 cell3_8) (adjacentn cell3_8 cell2_8) (adjacents cell3_8 cell4_8) (adjacentn cell4_8 cell3_8) (adjacents cell4_8 cell5_8) (adjacentn cell5_8 cell4_8) (adjacents cell5_8 cell6_8) (adjacentn cell6_8 cell5_8) (adjacents cell6_8 cell7_8) (adjacentn cell7_8 cell6_8)
+  (adjacents cell0_9 cell1_9) (adjacentn cell1_9 cell0_9) (adjacents cell1_9 cell2_9) (adjacentn cell2_9 cell1_9) (adjacents cell2_9 cell3_9) (adjacentn cell3_9 cell2_9) (adjacents cell3_9 cell4_9) (adjacentn cell4_9 cell3_9) (adjacents cell4_9 cell5_9) (adjacentn cell5_9 cell4_9) (adjacents cell5_9 cell6_9) (adjacentn cell6_9 cell5_9) (adjacents cell6_9 cell7_9) (adjacentn cell7_9 cell6_9)
+  (adjacents cell0_10 cell1_10) (adjacentn cell1_10 cell0_10) (adjacents cell1_10 cell2_10) (adjacentn cell2_10 cell1_10) (adjacents cell2_10 cell3_10) (adjacentn cell3_10 cell2_10) (adjacents cell3_10 cell4_10) (adjacentn cell4_10 cell3_10) (adjacents cell4_10 cell5_10) (adjacentn cell5_10 cell4_10) (adjacents cell5_10 cell6_10) (adjacentn cell6_10 cell5_10) (adjacents cell6_10 cell7_10) (adjacentn cell7_10 cell6_10)
+  (adjacents cell0_11 cell1_11) (adjacentn cell1_11 cell0_11) (adjacents cell1_11 cell2_11) (adjacentn cell2_11 cell1_11) (adjacents cell2_11 cell3_11) (adjacentn cell3_11 cell2_11) (adjacents cell3_11 cell4_11) (adjacentn cell4_11 cell3_11) (adjacents cell4_11 cell5_11) (adjacentn cell5_11 cell4_11) (adjacents cell5_11 cell6_11) (adjacentn cell6_11 cell5_11) (adjacents cell6_11 cell7_11) (adjacentn cell7_11 cell6_11)
+  )
+
+
+(:goal (and
+    (finish)
+))
+
+)

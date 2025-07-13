@@ -1,0 +1,323 @@
+<Solutions>
+<Solution id="0"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Asantoya-h.michael-a&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Asantoya-h.michael-a&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Aquintero-t.john-j</Author><Author>https://zbmath.org/authors/?q=ai%3Asalas.alvaro-h</Author></Solution>
+<Solution id="1"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Apeng.lizhong&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Apeng.lizhong&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Azhang.genkai</Author><Author>https://zbmath.org/authors/?q=ai%3Azhao.jiman</Author><Author>https://zbmath.org/authors/?q=ai%3Axu.chuanxiang</Author><Author>https://zbmath.org/authors/?q=ai%3Ajiang.qingtang</Author></Solution>
+<Solution id="2"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Aricci.fulvio.1&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Aricci.fulvio.1&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Amauceri.giancarlo</Author><Author>https://zbmath.org/authors/?q=ai%3Apicardello.massimo-angelo</Author><Author>https://zbmath.org/authors/?q=ai%3Averdera.joan</Author></Solution>
+<Solution id="3"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Ayakubovich.dmitry-v&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Ayakubovich.dmitry-v&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Apeller.vladimir-v</Author><Author>https://zbmath.org/authors/?q=ai%3Avolberg.alexander-l</Author><Author>https://zbmath.org/authors/?q=ai%3Adritschel.michael-a</Author><Author>https://zbmath.org/authors/?q=ai%3Aestevez.daniel</Author></Solution>
+<Solution id="4"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Achen.falai&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Achen.falai&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Adeng.jiansong</Author><Author>https://zbmath.org/authors/?q=ai%3Akang.hongmei</Author><Author>https://zbmath.org/authors/?q=ai%3Ali.xin.15</Author></Solution>
+<Solution id="5"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Ahedayatian.karim&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Ahedayatian.karim&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Aseddighi.karim</Author><Author>https://zbmath.org/authors/?q=ai%3Ayousefi.bahmann</Author><Author>https://zbmath.org/authors/?q=ai%3Aansari.mohammad</Author><Author>https://zbmath.org/authors/?q=ai%3Akhani-robati.bahram</Author></Solution>
+<Solution id="6"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Abyrne.charles-jun&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Abyrne.charles-jun&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Acohen.henry-b</Author><Author>https://zbmath.org/authors/?q=ai%3Asullivan.francis-e</Author></Solution>
+<Solution id="7"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Atodorov.ivan-g&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Atodorov.ivan-g&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Aklis-garlicka.kamila</Author><Author>https://zbmath.org/authors/?q=ai%3Amuller.vladimir</Author><Author>https://zbmath.org/authors/?q=ai%3Abracic.janko</Author><Author>https://zbmath.org/authors/?q=ai%3Aargyros.spiros-a</Author><Author>https://zbmath.org/authors/?q=ai%3Aanoussis.michalis</Author><Author>https://zbmath.org/authors/?q=ai%3Ashulman.victor-s</Author><Author>https://zbmath.org/authors/?q=ai%3Apapapanayides.savvas</Author><Author>https://zbmath.org/authors/?q=ai%3Aeleftherakis.george-k</Author></Solution>
+<Solution id="8"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Aessen.matts-raguel&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Aessen.matts-raguel&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Axiao.jie.1</Author><Author>https://zbmath.org/authors/?q=ai%3Awulan.hasi</Author></Solution>
+<Solution id="9"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?coauthor
+    WHERE {
+    ?document ns1:author_id &lt;https://zbmath.org/authors/?q=ai%3Avillegas-vallecillos.moises&gt; .
+    ?document ns1:author_id ?coauthor .
+    FILTER (?coauthor != &lt;https://zbmath.org/authors/?q=ai%3Avillegas-vallecillos.moises&gt;)
+    }
+    </Query><Author>https://zbmath.org/authors/?q=ai%3Ajimenez-vargas.antonio</Author><Author>https://zbmath.org/authors/?q=ai%3Aburgos.maria-j</Author><Author>https://zbmath.org/authors/?q=ai%3Aluttman.aaron</Author><Author>https://zbmath.org/authors/?q=ai%3Alee.kristopher</Author></Solution>
+<Solution id="10"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A47L")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A47A20"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A1006665</Paper><Paper>https://zbmath.org/?q=an%3A1186470</Paper><Paper>https://zbmath.org/?q=an%3A1597940</Paper><Paper>https://zbmath.org/?q=an%3A4007059</Paper><Paper>https://zbmath.org/?q=an%3A550308</Paper><Paper>https://zbmath.org/?q=an%3A4136798</Paper><Paper>https://zbmath.org/?q=an%3A6117133</Paper><Paper>https://zbmath.org/?q=an%3A1354841</Paper><Paper>https://zbmath.org/?q=an%3A1671329</Paper><Paper>https://zbmath.org/?q=an%3A4117282</Paper><Paper>https://zbmath.org/?q=an%3A9083</Paper><Paper>https://zbmath.org/?q=an%3A1143140</Paper><Paper>https://zbmath.org/?q=an%3A1400199</Paper><Paper>https://zbmath.org/?q=an%3A1457365</Paper><Paper>https://zbmath.org/?q=an%3A604815</Paper><Paper>https://zbmath.org/?q=an%3A733239</Paper><Paper>https://zbmath.org/?q=an%3A9466</Paper><Paper>https://zbmath.org/?q=an%3A3525768</Paper><Paper>https://zbmath.org/?q=an%3A6358022</Paper></Solution>
+<Solution id="11"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A47A")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A41"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A3365933</Paper><Paper>https://zbmath.org/?q=an%3A4055460</Paper><Paper>https://zbmath.org/?q=an%3A4086325</Paper><Paper>https://zbmath.org/?q=an%3A3365916</Paper><Paper>https://zbmath.org/?q=an%3A1936608</Paper><Paper>https://zbmath.org/?q=an%3A15038</Paper><Paper>https://zbmath.org/?q=an%3A1729231</Paper><Paper>https://zbmath.org/?q=an%3A2111838</Paper><Paper>https://zbmath.org/?q=an%3A3730666</Paper><Paper>https://zbmath.org/?q=an%3A3539907</Paper><Paper>https://zbmath.org/?q=an%3A3829735</Paper><Paper>https://zbmath.org/?q=an%3A5037625</Paper><Paper>https://zbmath.org/?q=an%3A5148343</Paper><Paper>https://zbmath.org/?q=an%3A65770</Paper><Paper>https://zbmath.org/?q=an%3A2041103</Paper><Paper>https://zbmath.org/?q=an%3A683648</Paper><Paper>https://zbmath.org/?q=an%3A6806046</Paper><Paper>https://zbmath.org/?q=an%3A1915614</Paper><Paper>https://zbmath.org/?q=an%3A3543077</Paper><Paper>https://zbmath.org/?q=an%3A3340585</Paper><Paper>https://zbmath.org/?q=an%3A4063838</Paper><Paper>https://zbmath.org/?q=an%3A4105544</Paper><Paper>https://zbmath.org/?q=an%3A3901460</Paper><Paper>https://zbmath.org/?q=an%3A597570</Paper><Paper>https://zbmath.org/?q=an%3A3521030</Paper><Paper>https://zbmath.org/?q=an%3A7248629</Paper><Paper>https://zbmath.org/?q=an%3A3796655</Paper><Paper>https://zbmath.org/?q=an%3A4052354</Paper><Paper>https://zbmath.org/?q=an%3A3516001</Paper><Paper>https://zbmath.org/?q=an%3A3940034</Paper><Paper>https://zbmath.org/?q=an%3A7121531</Paper><Paper>https://zbmath.org/?q=an%3A1183916</Paper><Paper>https://zbmath.org/?q=an%3A3757095</Paper><Paper>https://zbmath.org/?q=an%3A3990126</Paper></Solution>
+<Solution id="12"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A46J")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A46K50")) ?publication zb:classification ?cls3 .
+  FILTER(CONTAINS(STR(?cls3), "https://zbmath.org/classification/?q=cc%3A47L"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A1223537</Paper><Paper>https://zbmath.org/?q=an%3A883398</Paper><Paper>https://zbmath.org/?q=an%3A5322317</Paper><Paper>https://zbmath.org/?q=an%3A5358282</Paper><Paper>https://zbmath.org/?q=an%3A6582611</Paper><Paper>https://zbmath.org/?q=an%3A7172081</Paper><Paper>https://zbmath.org/?q=an%3A6199457</Paper><Paper>https://zbmath.org/?q=an%3A5245204</Paper><Paper>https://zbmath.org/?q=an%3A5115203</Paper><Paper>https://zbmath.org/?q=an%3A6935869</Paper></Solution>
+<Solution id="13"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A35B")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A46J")) ?publication zb:classification ?cls3 .
+  FILTER(CONTAINS(STR(?cls3), "https://zbmath.org/classification/?q=cc%3A43A"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A5351293</Paper><Paper>https://zbmath.org/?q=an%3A3389738</Paper></Solution>
+<Solution id="14"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A32")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A47B35"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A843245</Paper><Paper>https://zbmath.org/?q=an%3A1717479</Paper><Paper>https://zbmath.org/?q=an%3A1331349</Paper><Paper>https://zbmath.org/?q=an%3A1542410</Paper><Paper>https://zbmath.org/?q=an%3A1548312</Paper><Paper>https://zbmath.org/?q=an%3A1563759</Paper><Paper>https://zbmath.org/?q=an%3A1703084</Paper><Paper>https://zbmath.org/?q=an%3A1708939</Paper><Paper>https://zbmath.org/?q=an%3A19749</Paper><Paper>https://zbmath.org/?q=an%3A1996443</Paper><Paper>https://zbmath.org/?q=an%3A2028739</Paper><Paper>https://zbmath.org/?q=an%3A6714331</Paper><Paper>https://zbmath.org/?q=an%3A6789031</Paper><Paper>https://zbmath.org/?q=an%3A6881239</Paper><Paper>https://zbmath.org/?q=an%3A6881240</Paper><Paper>https://zbmath.org/?q=an%3A6946882</Paper><Paper>https://zbmath.org/?q=an%3A6966980</Paper><Paper>https://zbmath.org/?q=an%3A7083764</Paper><Paper>https://zbmath.org/?q=an%3A3933793</Paper><Paper>https://zbmath.org/?q=an%3A3781874</Paper><Paper>https://zbmath.org/?q=an%3A3857795</Paper><Paper>https://zbmath.org/?q=an%3A3881338</Paper><Paper>https://zbmath.org/?q=an%3A152046</Paper><Paper>https://zbmath.org/?q=an%3A1822203</Paper><Paper>https://zbmath.org/?q=an%3A1955485</Paper><Paper>https://zbmath.org/?q=an%3A3781842</Paper><Paper>https://zbmath.org/?q=an%3A480335</Paper><Paper>https://zbmath.org/?q=an%3A905029</Paper><Paper>https://zbmath.org/?q=an%3A2115615</Paper><Paper>https://zbmath.org/?q=an%3A2160364</Paper><Paper>https://zbmath.org/?q=an%3A222151</Paper><Paper>https://zbmath.org/?q=an%3A4105652</Paper><Paper>https://zbmath.org/?q=an%3A5126591</Paper><Paper>https://zbmath.org/?q=an%3A789814</Paper><Paper>https://zbmath.org/?q=an%3A5629533</Paper><Paper>https://zbmath.org/?q=an%3A5760100</Paper><Paper>https://zbmath.org/?q=an%3A5774007</Paper><Paper>https://zbmath.org/?q=an%3A5822870</Paper><Paper>https://zbmath.org/?q=an%3A5935385</Paper><Paper>https://zbmath.org/?q=an%3A5935430</Paper><Paper>https://zbmath.org/?q=an%3A6062078</Paper><Paper>https://zbmath.org/?q=an%3A6197141</Paper><Paper>https://zbmath.org/?q=an%3A6202773</Paper><Paper>https://zbmath.org/?q=an%3A4096195</Paper><Paper>https://zbmath.org/?q=an%3A6012356</Paper><Paper>https://zbmath.org/?q=an%3A6179329</Paper><Paper>https://zbmath.org/?q=an%3A6627888</Paper><Paper>https://zbmath.org/?q=an%3A6705358</Paper><Paper>https://zbmath.org/?q=an%3A683641</Paper><Paper>https://zbmath.org/?q=an%3A845510</Paper><Paper>https://zbmath.org/?q=an%3A561221</Paper><Paper>https://zbmath.org/?q=an%3A6056</Paper><Paper>https://zbmath.org/?q=an%3A6159956</Paper><Paper>https://zbmath.org/?q=an%3A6192894</Paper><Paper>https://zbmath.org/?q=an%3A6271960</Paper><Paper>https://zbmath.org/?q=an%3A637457</Paper><Paper>https://zbmath.org/?q=an%3A6636799</Paper><Paper>https://zbmath.org/?q=an%3A3594115</Paper><Paper>https://zbmath.org/?q=an%3A6881306</Paper><Paper>https://zbmath.org/?q=an%3A7210986</Paper><Paper>https://zbmath.org/?q=an%3A755478</Paper><Paper>https://zbmath.org/?q=an%3A1333178</Paper><Paper>https://zbmath.org/?q=an%3A1563101</Paper><Paper>https://zbmath.org/?q=an%3A1661237</Paper><Paper>https://zbmath.org/?q=an%3A5023950</Paper><Paper>https://zbmath.org/?q=an%3A5189102</Paper><Paper>https://zbmath.org/?q=an%3A5786469</Paper><Paper>https://zbmath.org/?q=an%3A6662982</Paper><Paper>https://zbmath.org/?q=an%3A6780269</Paper><Paper>https://zbmath.org/?q=an%3A6454186</Paper><Paper>https://zbmath.org/?q=an%3A1190604</Paper><Paper>https://zbmath.org/?q=an%3A177759</Paper><Paper>https://zbmath.org/?q=an%3A4157301</Paper><Paper>https://zbmath.org/?q=an%3A3579476</Paper><Paper>https://zbmath.org/?q=an%3A3577830</Paper><Paper>https://zbmath.org/?q=an%3A826128</Paper><Paper>https://zbmath.org/?q=an%3A4132939</Paper><Paper>https://zbmath.org/?q=an%3A562972</Paper><Paper>https://zbmath.org/?q=an%3A706510</Paper><Paper>https://zbmath.org/?q=an%3A1004573</Paper><Paper>https://zbmath.org/?q=an%3A436617</Paper><Paper>https://zbmath.org/?q=an%3A1998622</Paper><Paper>https://zbmath.org/?q=an%3A2075988</Paper><Paper>https://zbmath.org/?q=an%3A1419175</Paper><Paper>https://zbmath.org/?q=an%3A3776275</Paper><Paper>https://zbmath.org/?q=an%3A3836772</Paper><Paper>https://zbmath.org/?q=an%3A902821</Paper><Paper>https://zbmath.org/?q=an%3A4000805</Paper></Solution>
+<Solution id="15"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A47A")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A46J05"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A3365842</Paper><Paper>https://zbmath.org/?q=an%3A5059649</Paper><Paper>https://zbmath.org/?q=an%3A1271963</Paper><Paper>https://zbmath.org/?q=an%3A1447280</Paper><Paper>https://zbmath.org/?q=an%3A6747848</Paper><Paper>https://zbmath.org/?q=an%3A193012</Paper><Paper>https://zbmath.org/?q=an%3A53060</Paper><Paper>https://zbmath.org/?q=an%3A6002321</Paper><Paper>https://zbmath.org/?q=an%3A5019471</Paper><Paper>https://zbmath.org/?q=an%3A524078</Paper><Paper>https://zbmath.org/?q=an%3A3779955</Paper><Paper>https://zbmath.org/?q=an%3A3340607</Paper><Paper>https://zbmath.org/?q=an%3A1439682</Paper><Paper>https://zbmath.org/?q=an%3A1201220</Paper><Paper>https://zbmath.org/?q=an%3A2170692</Paper><Paper>https://zbmath.org/?q=an%3A3620568</Paper><Paper>https://zbmath.org/?q=an%3A3791006</Paper><Paper>https://zbmath.org/?q=an%3A3830644</Paper><Paper>https://zbmath.org/?q=an%3A3967123</Paper><Paper>https://zbmath.org/?q=an%3A6107936</Paper><Paper>https://zbmath.org/?q=an%3A647286</Paper><Paper>https://zbmath.org/?q=an%3A6729909</Paper><Paper>https://zbmath.org/?q=an%3A3406613</Paper><Paper>https://zbmath.org/?q=an%3A1914182</Paper><Paper>https://zbmath.org/?q=an%3A28283</Paper><Paper>https://zbmath.org/?q=an%3A3883025</Paper><Paper>https://zbmath.org/?q=an%3A908027</Paper><Paper>https://zbmath.org/?q=an%3A3816387</Paper><Paper>https://zbmath.org/?q=an%3A417158</Paper><Paper>https://zbmath.org/?q=an%3A7093009</Paper><Paper>https://zbmath.org/?q=an%3A6578682</Paper><Paper>https://zbmath.org/?q=an%3A6834623</Paper><Paper>https://zbmath.org/?q=an%3A6837619</Paper><Paper>https://zbmath.org/?q=an%3A3365916</Paper><Paper>https://zbmath.org/?q=an%3A5722721</Paper><Paper>https://zbmath.org/?q=an%3A7286020</Paper><Paper>https://zbmath.org/?q=an%3A703501</Paper><Paper>https://zbmath.org/?q=an%3A3549655</Paper><Paper>https://zbmath.org/?q=an%3A3851804</Paper><Paper>https://zbmath.org/?q=an%3A3855710</Paper><Paper>https://zbmath.org/?q=an%3A3464251</Paper><Paper>https://zbmath.org/?q=an%3A3772377</Paper><Paper>https://zbmath.org/?q=an%3A1597940</Paper><Paper>https://zbmath.org/?q=an%3A1523271</Paper><Paper>https://zbmath.org/?q=an%3A1716581</Paper><Paper>https://zbmath.org/?q=an%3A7033224</Paper><Paper>https://zbmath.org/?q=an%3A3561923</Paper><Paper>https://zbmath.org/?q=an%3A3992213</Paper><Paper>https://zbmath.org/?q=an%3A5083611</Paper><Paper>https://zbmath.org/?q=an%3A3560164</Paper><Paper>https://zbmath.org/?q=an%3A10318</Paper><Paper>https://zbmath.org/?q=an%3A3610295</Paper><Paper>https://zbmath.org/?q=an%3A1703910</Paper><Paper>https://zbmath.org/?q=an%3A3502189</Paper><Paper>https://zbmath.org/?q=an%3A3553215</Paper><Paper>https://zbmath.org/?q=an%3A3728921</Paper><Paper>https://zbmath.org/?q=an%3A1183919</Paper><Paper>https://zbmath.org/?q=an%3A1462208</Paper><Paper>https://zbmath.org/?q=an%3A3431302</Paper><Paper>https://zbmath.org/?q=an%3A3848027</Paper><Paper>https://zbmath.org/?q=an%3A3971521</Paper><Paper>https://zbmath.org/?q=an%3A3563722</Paper><Paper>https://zbmath.org/?q=an%3A3690087</Paper><Paper>https://zbmath.org/?q=an%3A3424652</Paper><Paper>https://zbmath.org/?q=an%3A3532035</Paper><Paper>https://zbmath.org/?q=an%3A3753510</Paper><Paper>https://zbmath.org/?q=an%3A513051</Paper><Paper>https://zbmath.org/?q=an%3A3693971</Paper><Paper>https://zbmath.org/?q=an%3A3697815</Paper><Paper>https://zbmath.org/?q=an%3A3608593</Paper><Paper>https://zbmath.org/?q=an%3A3816392</Paper><Paper>https://zbmath.org/?q=an%3A3909109</Paper></Solution>
+<Solution id="16"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A46J")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A28A"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A107660</Paper><Paper>https://zbmath.org/?q=an%3A1148357</Paper><Paper>https://zbmath.org/?q=an%3A3734567</Paper><Paper>https://zbmath.org/?q=an%3A3469495</Paper><Paper>https://zbmath.org/?q=an%3A3469496</Paper><Paper>https://zbmath.org/?q=an%3A3469497</Paper><Paper>https://zbmath.org/?q=an%3A3469498</Paper><Paper>https://zbmath.org/?q=an%3A3493344</Paper><Paper>https://zbmath.org/?q=an%3A3367613</Paper><Paper>https://zbmath.org/?q=an%3A3789263</Paper><Paper>https://zbmath.org/?q=an%3A3789264</Paper><Paper>https://zbmath.org/?q=an%3A3608593</Paper><Paper>https://zbmath.org/?q=an%3A45240</Paper><Paper>https://zbmath.org/?q=an%3A3676530</Paper><Paper>https://zbmath.org/?q=an%3A3678503</Paper><Paper>https://zbmath.org/?q=an%3A3659889</Paper><Paper>https://zbmath.org/?q=an%3A3791006</Paper><Paper>https://zbmath.org/?q=an%3A2182076</Paper><Paper>https://zbmath.org/?q=an%3A3347055</Paper><Paper>https://zbmath.org/?q=an%3A3661658</Paper><Paper>https://zbmath.org/?q=an%3A3670755</Paper><Paper>https://zbmath.org/?q=an%3A3487745</Paper><Paper>https://zbmath.org/?q=an%3A3716193</Paper><Paper>https://zbmath.org/?q=an%3A3590876</Paper><Paper>https://zbmath.org/?q=an%3A3692088</Paper><Paper>https://zbmath.org/?q=an%3A3686162</Paper><Paper>https://zbmath.org/?q=an%3A3870016</Paper><Paper>https://zbmath.org/?q=an%3A3975634</Paper><Paper>https://zbmath.org/?q=an%3A3579122</Paper><Paper>https://zbmath.org/?q=an%3A6179624</Paper><Paper>https://zbmath.org/?q=an%3A5996679</Paper><Paper>https://zbmath.org/?q=an%3A6102121</Paper><Paper>https://zbmath.org/?q=an%3A6140710</Paper><Paper>https://zbmath.org/?q=an%3A6576462</Paper><Paper>https://zbmath.org/?q=an%3A3459417</Paper><Paper>https://zbmath.org/?q=an%3A3377587</Paper><Paper>https://zbmath.org/?q=an%3A3469522</Paper><Paper>https://zbmath.org/?q=an%3A3489882</Paper><Paper>https://zbmath.org/?q=an%3A3594078</Paper><Paper>https://zbmath.org/?q=an%3A5822508</Paper><Paper>https://zbmath.org/?q=an%3A96323</Paper><Paper>https://zbmath.org/?q=an%3A6006214</Paper><Paper>https://zbmath.org/?q=an%3A3510982</Paper><Paper>https://zbmath.org/?q=an%3A1606544</Paper><Paper>https://zbmath.org/?q=an%3A3581119</Paper><Paper>https://zbmath.org/?q=an%3A4019747</Paper><Paper>https://zbmath.org/?q=an%3A5245583</Paper><Paper>https://zbmath.org/?q=an%3A3387686</Paper><Paper>https://zbmath.org/?q=an%3A3649445</Paper><Paper>https://zbmath.org/?q=an%3A3671451</Paper><Paper>https://zbmath.org/?q=an%3A3425893</Paper><Paper>https://zbmath.org/?q=an%3A3581118</Paper><Paper>https://zbmath.org/?q=an%3A7355857</Paper><Paper>https://zbmath.org/?q=an%3A4038532</Paper><Paper>https://zbmath.org/?q=an%3A3288811</Paper><Paper>https://zbmath.org/?q=an%3A3288812</Paper><Paper>https://zbmath.org/?q=an%3A3517729</Paper><Paper>https://zbmath.org/?q=an%3A3517730</Paper><Paper>https://zbmath.org/?q=an%3A3474386</Paper><Paper>https://zbmath.org/?q=an%3A3474387</Paper><Paper>https://zbmath.org/?q=an%3A3476088</Paper><Paper>https://zbmath.org/?q=an%3A6638898</Paper><Paper>https://zbmath.org/?q=an%3A3541143</Paper><Paper>https://zbmath.org/?q=an%3A3576103</Paper><Paper>https://zbmath.org/?q=an%3A3424308</Paper><Paper>https://zbmath.org/?q=an%3A3437303</Paper><Paper>https://zbmath.org/?q=an%3A3462571</Paper><Paper>https://zbmath.org/?q=an%3A3487748</Paper><Paper>https://zbmath.org/?q=an%3A3574378</Paper><Paper>https://zbmath.org/?q=an%3A3634872</Paper><Paper>https://zbmath.org/?q=an%3A3447571</Paper><Paper>https://zbmath.org/?q=an%3A3288813</Paper><Paper>https://zbmath.org/?q=an%3A3517728</Paper><Paper>https://zbmath.org/?q=an%3A6614263</Paper><Paper>https://zbmath.org/?q=an%3A3474338</Paper><Paper>https://zbmath.org/?q=an%3A3383044</Paper><Paper>https://zbmath.org/?q=an%3A3600602</Paper><Paper>https://zbmath.org/?q=an%3A3416130</Paper><Paper>https://zbmath.org/?q=an%3A3326776</Paper><Paper>https://zbmath.org/?q=an%3A3569281</Paper><Paper>https://zbmath.org/?q=an%3A3682069</Paper><Paper>https://zbmath.org/?q=an%3A3964289</Paper></Solution>
+<Solution id="17"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A30")) ?publication zb:classification ?cls2 .
+  FILTER(CONTAINS(STR(?cls2), "https://zbmath.org/classification/?q=cc%3A46J10")) ?publication zb:classification ?cls3 .
+  FILTER(CONTAINS(STR(?cls3), "https://zbmath.org/classification/?q=cc%3A32"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A3992146</Paper><Paper>https://zbmath.org/?q=an%3A3798464</Paper><Paper>https://zbmath.org/?q=an%3A3798442</Paper><Paper>https://zbmath.org/?q=an%3A6313559</Paper><Paper>https://zbmath.org/?q=an%3A1028972</Paper><Paper>https://zbmath.org/?q=an%3A3481269</Paper><Paper>https://zbmath.org/?q=an%3A3505633</Paper><Paper>https://zbmath.org/?q=an%3A6065368</Paper><Paper>https://zbmath.org/?q=an%3A5615673</Paper><Paper>https://zbmath.org/?q=an%3A1187010</Paper><Paper>https://zbmath.org/?q=an%3A3849870</Paper><Paper>https://zbmath.org/?q=an%3A3610276</Paper><Paper>https://zbmath.org/?q=an%3A3325802</Paper><Paper>https://zbmath.org/?q=an%3A5953429</Paper><Paper>https://zbmath.org/?q=an%3A3931392</Paper><Paper>https://zbmath.org/?q=an%3A3941935</Paper><Paper>https://zbmath.org/?q=an%3A3908821</Paper><Paper>https://zbmath.org/?q=an%3A5200845</Paper><Paper>https://zbmath.org/?q=an%3A3561924</Paper><Paper>https://zbmath.org/?q=an%3A59654</Paper><Paper>https://zbmath.org/?q=an%3A7258497</Paper><Paper>https://zbmath.org/?q=an%3A5953439</Paper><Paper>https://zbmath.org/?q=an%3A6121471</Paper><Paper>https://zbmath.org/?q=an%3A7020563</Paper><Paper>https://zbmath.org/?q=an%3A6756232</Paper></Solution>
+<Solution id="18"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A28A35"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A3469497</Paper><Paper>https://zbmath.org/?q=an%3A3469498</Paper><Paper>https://zbmath.org/?q=an%3A3861841</Paper><Paper>https://zbmath.org/?q=an%3A45240</Paper></Solution>
+<Solution id="19"><Query>
+    PREFIX zb: &lt;https://zbmath.org/&gt;
+    SELECT DISTINCT ?publication
+    WHERE {
+        ?publication zb:classification ?cls1 .
+  FILTER(CONTAINS(STR(?cls1), "https://zbmath.org/classification/?q=cc%3A22D99"))
+    }
+    </Query><Paper>https://zbmath.org/?q=an%3A3526946</Paper><Paper>https://zbmath.org/?q=an%3A3532013</Paper><Paper>https://zbmath.org/?q=an%3A5808400</Paper><Paper>https://zbmath.org/?q=an%3A958532</Paper><Paper>https://zbmath.org/?q=an%3A3432659</Paper><Paper>https://zbmath.org/?q=an%3A5133295</Paper><Paper>https://zbmath.org/?q=an%3A6079364</Paper></Solution>
+<Solution id="20"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3Auniform+algebra&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1981" &amp;&amp; STR(?publicationYear) &lt; "2012")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="11">https://zbmath.org/authors/?q=ai%3Anakazi.takahiko</Author><Author count="10">https://zbmath.org/authors/?q=ai%3Agrigoryan.suren-a</Author><Author count="10">https://zbmath.org/authors/?q=ai%3Atonev.toma-v</Author><Author count="8">https://zbmath.org/authors/?q=ai%3Aizzo.alexander-j</Author><Author count="6">https://zbmath.org/authors/?q=ai%3Ashindo.rumi</Author><Author count="6">https://zbmath.org/authors/?q=ai%3Agamelin.theodore-w</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Abatikyan.bagrat-t</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Acole.brian-j</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Ahatori.osamu</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Afedorov.s-i</Author></Solution>
+<Solution id="21"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3Aspectrum&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1981" &amp;&amp; STR(?publicationYear) &lt; "2018")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="3">https://zbmath.org/authors/?q=ai%3Ako.eungil</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Amahyar.hakimeh</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Aradjavi.heydar</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Amoraes.luiza-amalia</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Anikolskij.nikolaj-k</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Aaron.richard-m</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Apearcy.carl-m</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Abehrouzi.farid</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Ajuneja.om-prakash</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Ashakhbazov.a-i</Author></Solution>
+<Solution id="22"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3ABanach+algebras&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1978" &amp;&amp; STR(?publicationYear) &lt; "2017")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="5">https://zbmath.org/authors/?q=ai%3Acarlsson.linus</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Asasane.amol-j</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Adales.h-garth</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Ajarosz.krzysztof</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Akolmogorov.andrei-nikolaevich</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Afomin.sergey-vasilievich</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Awick.brett-d</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Aperez-acosta.francisco</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Alyubich.yurii-ilich</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Afallstrom.anders</Author></Solution>
+<Solution id="23"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3Ainvariant+subspaces&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1978" &amp;&amp; STR(?publicationYear) &lt; "2018")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="12">https://zbmath.org/authors/?q=ai%3Aradjavi.heydar</Author><Author count="8">https://zbmath.org/authors/?q=ai%3Arosenthal.peter</Author><Author count="7">https://zbmath.org/authors/?q=ai%3Anakazi.takahiko</Author><Author count="7">https://zbmath.org/authors/?q=ai%3Ako.eungil</Author><Author count="7">https://zbmath.org/authors/?q=ai%3Abercovici.hari</Author><Author count="7">https://zbmath.org/authors/?q=ai%3Aaleman.alexandru</Author><Author count="7">https://zbmath.org/authors/?q=ai%3Adrnovsek.roman</Author><Author count="6">https://zbmath.org/authors/?q=ai%3Arichter.stefan.1</Author><Author count="6">https://zbmath.org/authors/?q=ai%3Akubrusly.carlos-s</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Apearcy.carl-m</Author></Solution>
+<Solution id="24"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3ABergman+space&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1984" &amp;&amp; STR(?publicationYear) &lt; "2010")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="8">https://zbmath.org/authors/?q=ai%3Azheng.dechao</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Asun.shunhua</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Ahedenmalm.hakan</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Aaleman.alexandru</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Ayang.liming</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Azhu.kehe</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Aluecking.daniel-h</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Axiao.jie.1</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Arichter.stefan.1</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Arochberg.richard</Author></Solution>
+<Solution id="25"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3AShilov+boundary&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1977" &amp;&amp; STR(?publicationYear) &lt; "2007")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="6">https://zbmath.org/authors/?q=ai%3Aizuchi.keiji</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Amortini.raymond</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Agrigoryan.suren-a</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Ahadjigeorgiou.rodia-i</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Atonev.toma-v</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Astankov.dimcho-k</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Amatsuoka.cho-ichiro</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Aagranovsky.mark-l</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Aguo.kunyu</Author><Author count="2">https://zbmath.org/authors/?q=ai%3Afont.juan-j</Author></Solution>
+<Solution id="26"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3ABanach+algebra&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1976" &amp;&amp; STR(?publicationYear) &lt; "2022")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="5">https://zbmath.org/authors/?q=ai%3Agarayev.mubariz-tapdigoglu</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Akumar.niraj</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Acho.dong-hyun</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Agourdeau.frederic</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Amanocha.garima</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Araza.mohd-arif</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Amiura.takeshi</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Aread.charles-john</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Amortini.raymond</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Asaltan.suna</Author></Solution>
+<Solution id="27"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3AHardy+space&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1984" &amp;&amp; STR(?publicationYear) &lt; "2010")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="13">https://zbmath.org/authors/?q=ai%3Anakazi.takahiko</Author><Author count="7">https://zbmath.org/authors/?q=ai%3Aizuchi.keiji</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Aseto.michio</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Asun.shunhua</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Arochberg.richard</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Azheng.dechao</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Aguo.kunyu</Author><Author count="4">https://zbmath.org/authors/?q=ai%3Apartington.jonathan-r</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Asingh.dinesh-chandra</Author><Author count="3">https://zbmath.org/authors/?q=ai%3Ali.songying</Author></Solution>
+<Solution id="28"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3Amaximal+ideal+space&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1978" &amp;&amp; STR(?publicationYear) &lt; "2016")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="19">https://zbmath.org/authors/?q=ai%3Aizuchi.keiji</Author><Author count="12">https://zbmath.org/authors/?q=ai%3Amortini.raymond</Author><Author count="9">https://zbmath.org/authors/?q=ai%3Agorkin.pamela-b</Author><Author count="8">https://zbmath.org/authors/?q=ai%3Asuarez.daniel</Author><Author count="6">https://zbmath.org/authors/?q=ai%3Abrudnyi.alexander</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Asasane.amol-j</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Aizuchi.yuko</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Atonev.toma-v</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Agamelin.theodore-w</Author><Author count="5">https://zbmath.org/authors/?q=ai%3Amatsuoka.cho-ichiro</Author></Solution>
+<Solution id="29"><Query>
+    PREFIX ns1: &lt;https://zbmath.org/&gt;
+
+    SELECT ?author (COUNT(?document) AS ?numDocuments)
+    WHERE {
+      ?document ns1:author_id ?author .
+      ?document ns1:keyword &lt;https://zbmath.org/?q=ut%3Ainvariant+subspace&gt; .
+      ?document ns1:publicationYear ?publicationYear .
+      FILTER (STR(?publicationYear) &gt; "1981" &amp;&amp; STR(?publicationYear) &lt; "2019")
+    }
+    GROUP BY ?author
+    ORDER BY DESC(?numDocuments) 
+    LIMIT 10
+    </Query><Author count="22">https://zbmath.org/authors/?q=ai%3Aizuchi.keiji</Author><Author count="19">https://zbmath.org/authors/?q=ai%3Aizuchi.kou-hei</Author><Author count="17">https://zbmath.org/authors/?q=ai%3Ako.eungil</Author><Author count="12">https://zbmath.org/authors/?q=ai%3Ajung.il-bong</Author><Author count="12">https://zbmath.org/authors/?q=ai%3Apearcy.carl-m</Author><Author count="11">https://zbmath.org/authors/?q=ai%3Aliu.mingxue</Author><Author count="10">https://zbmath.org/authors/?q=ai%3Aizuchi.yuko</Author><Author count="9">https://zbmath.org/authors/?q=ai%3Ashulman.victor-s</Author><Author count="9">https://zbmath.org/authors/?q=ai%3Achalendar.isabelle</Author><Author count="9">https://zbmath.org/authors/?q=ai%3Anakazi.takahiko</Author></Solution>
+</Solutions>
